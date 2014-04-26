@@ -1,0 +1,4 @@
+#/bin/bash 
+
+hadoop fs -rm -R wordcount/output
+hadoop jar WordCount.jar wordcount/input wordcount/output
